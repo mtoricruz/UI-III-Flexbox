@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -54,7 +55,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*General styling goes here*/
+body{
+	width:1500px;
+	text-align:center;
+}
+hr{
+	margin-right:21%;
+	margin-left:21%;
+}
+/*Navigation Styling Here*/
+.links {
+	display:flex;
+	justify-content:space-around;
+}
+.links img{
+	margin-right:5%
+}
+.links a{
+	margin-left: 5%
+}
+.navigation *{
+	color: grey;
+}
+nav div{
+	align-items: center;
+}
+/*Header Styling Goes Here*/
+header div{
+	font-size: 70px;
+}
+header{
+	display:flex;
+	justify-content: space-evenly;
+}
+h1{
+	font-size:90%;
+	margin-top: 25%;
+}
+.headandbutt{
+	/* margin-left:15%; */
+}
+button{
+	font-size:18px;
+	background-color: white;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.circleimg{
+	
+}
+/* Section top goes here*/
+.top{
+	display:flex;
+	justify-content: space-around;
+}
+.top div{
+	width:27%;
+	display:flex;
+	justify-content: left;
+	flex-direction: column;
+	text-align: left;
+}
+/* Section image goes here*/
+.image{
+
+}
+/* Section bottom goes here */
+.bottom{
+	display:flex;
+	justify-content: center;
+}
+.three{
+	text-align:left;
+	width:13%;	
+}
+.four{
+	text-align:left;
+	width:13%;
+	
+}
+.five{
+	text-align:left;
+	width:13%;
+}
+/* Section contact goes here */
+.contact{
+	display:flex;
+	flex-direction: column;
+}
+.six{
+	text-align:left;
+	
+}
+.contact h3{
+	
+	text-align: left;
+	
+}
+address{
+	
+}
+.contact p{
+	
+}
+/* Section footer goes here*/
+footer{
+
+}
