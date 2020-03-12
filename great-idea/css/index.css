@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	/* border:1px solid grey; */
+	border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -99,7 +99,7 @@ header{
 	display:flex;
 	justify-content: space-evenly;
 }
-h1{
+.h1home{
 	font-size:90%;
 	margin-top: 25%;
 }
@@ -175,3 +175,4 @@ button{
 footer{
 
 }
+/*Service page build code goes here*/
