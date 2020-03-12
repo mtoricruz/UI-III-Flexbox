@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	border:1px solid grey;
+	/* border:1px solid grey; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -118,7 +118,7 @@ button{
 /* Section top goes here*/
 .top{
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 .top div{
 	width:27%;
@@ -126,6 +126,14 @@ button{
 	justify-content: left;
 	flex-direction: column;
 	text-align: left;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.one{
+	margin-left:15.25%;
+}
+.two{
+	margin-right:15.25%;
 }
 /* Section image goes here*/
 .image{
@@ -134,40 +142,34 @@ button{
 /* Section bottom goes here */
 .bottom{
 	display:flex;
-	justify-content: center;
+	justify-content: space-around;
+}
+.bottom div{
+	width:15%;
+	display:flex;
+	text-align: left;
+	flex-direction: column;
+	margin-top:2%;
+	margin-bottom: 2%;
 }
 .three{
-	text-align:left;
-	width:13%;	
-}
-.four{
-	text-align:left;
-	width:13%;
-	
+	margin-left: 17%;
 }
 .five{
-	text-align:left;
-	width:13%;
+	margin-right: 17%
 }
 /* Section contact goes here */
 .contact{
 	display:flex;
 	flex-direction: column;
-}
-.six{
-	text-align:left;
-	
-}
-.contact h3{
-	
 	text-align: left;
-	
+	margin-left: 20.5%;
 }
-address{
-	
+.six address{
+	margin-bottom:1%;
 }
-.contact p{
-	
+.six p{
+	margin-bottom:1%;
 }
 /* Section footer goes here*/
 footer{
