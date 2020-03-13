@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	border:1px solid grey;
+	/* border:1px solid grey; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -192,13 +192,28 @@ footer{
 	margin-bottom: 2%;
 }
 /*Section servicelist code goes here*/
+#servicelist{
+	box-sizing: border-box;
+}
 .challenge-three{
 	display:flex;
+	text-align: left;
   }
-  .three-child{
+.three-child{
 	display:flex;
 	flex-direction:column;
-  }
+}
+.three-grandchild{
+	border: 1px solid grey;
+	margin-left: 0.2%;
+	margin-right: 5%;
+	margin-bottom: 9%;
+	width:90%;
+	padding: 3% 6%	
+}
+button{
+	margin:5% auto;
+}
 
   /*Section factsabout code goes here*/
 #factsabout{
