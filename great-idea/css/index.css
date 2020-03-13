@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	/* border:1px solid grey; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -49,12 +50,13 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width:100%;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,177 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*General styling goes here*/
+body{
+	width:1500px;
+	text-align:center;
+	margin:0 auto;
+}
+hr{
+	margin-right:21%;
+	margin-left:21%;
+}
+/*Navigation Styling Here*/
+.links {
+	display:flex;
+	justify-content:space-around;
+}
+.links img{
+	margin-right:5%
+}
+.links a{
+	margin-left: 5%
+}
+.navigation *{
+	color: grey;
+}
+nav div{
+	align-items: center;
+}
+/*Header Styling Goes Here*/
+header div{
+	font-size: 70px;
+}
+header{
+	display:flex;
+	justify-content: space-evenly;
+}
+.h1home{
+	font-size:90%;
+	margin-top: 25%;
+}
+.headandbutt{
+	/* margin-left:15%; */
+}
+button{
+	font-size:18px;
+	background-color: white;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.circleimg{
+	
+}
+/* Section top goes here*/
+.top{
+	display:flex;
+	justify-content: space-evenly;
+}
+.top div{
+	width:27%;
+	display:flex;
+	justify-content: left;
+	flex-direction: column;
+	text-align: left;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.one{
+	margin-left:15.25%;
+}
+.two{
+	margin-right:15.25%;
+}
+/* Section image goes here*/
+.image{
+
+}
+/* Section bottom goes here */
+.bottom{
+	display:flex;
+	justify-content: space-around;
+}
+.bottom div{
+	width:15%;
+	display:flex;
+	text-align: left;
+	flex-direction: column;
+	margin-top:2%;
+	margin-bottom: 2%;
+}
+.three{
+	margin-left: 17%;
+}
+.five{
+	margin-right: 17%
+}
+/* Section contact goes here */
+.contact{
+	display:flex;
+	flex-direction: column;
+	text-align: left;
+	margin-left: 20.5%;
+}
+.six address{
+	margin-bottom:1%;
+}
+.six p{
+	margin-bottom:1%;
+}
+/* Section footer goes here*/
+footer{
+
+}
+/*Service page build code goes here*/
+/*Service header code goes here*/
+.servicetop{
+	display:flex;
+	flex-direction: column;
+	text-align:left;
+	width:60%;
+}
+.servicetop h2{
+	margin-top: 3%;
+}
+.servicetop p{
+	margin-bottom: 2%;
+}
+.servicetop img{
+	margin-top: 4%;
+}
+/*Section servicelist code goes here*/
+#servicelist{
+	box-sizing: border-box;
+}
+.challenge-three{
+	display:flex;
+	text-align: left;
+  }
+.three-child{
+	display:flex;
+	flex-direction:column;
+}
+.three-grandchild{
+	border: 1px solid grey;
+	margin-left: 0.2%;
+	margin-right: 5%;
+	margin-bottom: 9%;
+	width:90%;
+	padding: 6% 6%	
+}
+button{
+	margin-top: 5%;
+	border-radius:5px;
+	background-color: white;
+	border:1px solid black;
+	padding:2% 10%;
+}
+
+  /*Section factsabout code goes here*/
+#factsabout{
+	display:flex;
+	width:90%;
+	justify-content: space-evenly;
+}  
+.factsaboutservices{
+	display:flex;
+	flex-direction: column;
+	width:49%;
+	margin-top: 3%;
+	text-align: left;
+	margin-left: 20%;
+}
+.fasimg{
+	width:49%;
+	margin-right: 6.8%;
+}
