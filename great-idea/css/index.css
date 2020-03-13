@@ -191,6 +191,9 @@ footer{
 .servicetop p{
 	margin-bottom: 2%;
 }
+.servicetop img{
+	margin-top: 4%;
+}
 /*Section servicelist code goes here*/
 #servicelist{
 	box-sizing: border-box;
@@ -209,22 +212,31 @@ footer{
 	margin-right: 5%;
 	margin-bottom: 9%;
 	width:90%;
-	padding: 3% 6%	
+	padding: 6% 6%	
 }
 button{
-	margin:5% auto;
+	margin-top: 5%;
+	border-radius:5px;
+	background-color: white;
+	border:1px solid black;
+	padding:2% 10%;
 }
 
   /*Section factsabout code goes here*/
 #factsabout{
 	display:flex;
+	width:90%;
+	justify-content: space-evenly;
 }  
 .factsaboutservices{
 	display:flex;
-	align-items: center;
 	flex-direction: column;
 	width:49%;
+	margin-top: 3%;
+	text-align: left;
+	margin-left: 20%;
 }
 .fasimg{
 	width:49%;
+	margin-right: 6.8%;
 }
