@@ -178,3 +178,24 @@ footer{
 
 }
 /*Service page build code goes here*/
+/*Service header code goes here*/
+.servicetop{
+	display:flex;
+	flex-direction: column;
+	text-align:left;
+	width:60%;
+}
+.servicetop h2{
+	margin-top: 3%;
+}
+.servicetop p{
+	margin-bottom: 2%;
+}
+/*Section servicelist code goes here*/
+.challenge-three{
+	display:flex;
+  }
+  .three-child{
+	display:flex;
+	flex-direction:column;
+  }
